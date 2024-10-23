@@ -1,13 +1,13 @@
-Hi There I am here with you to guide through the project.
-To begin with project first you must install all libraries required for the project, below are the list of the libraries to be install to your machines...
+To begin with this project, you must first install all the required libraries on your machine. Use the following commands:
 
 pip install numpy
 pip install cvzone
 pip install opencv-python
 
-after installing run the Test.py file.
+Once the installations are complete, follow these steps:
 
-and if you wish to create your own dataset, you must run the main.py file after pressing 's' it will start to snapshot the images in given frame.
+Running the Test Script: After installing the libraries, you can run the Test.py file to test the model.
 
-The models was trained using Techable Machine with dataset provided with 26 labels, beacuse Training model with 26 labels requires more time, patience and good GPU or CPU.
-after the model was trained, then it was loaded in Test.py python file.
+Creating Your Own Dataset: If you wish to create your own dataset, run the main.py file. Press 's' to start capturing snapshots within the given frame.
+
+Model Training: The model was trained using Teachable Machine with a dataset containing 26 labels. Training a model with 26 labels requires significant time, patience, and hardware resources (like a good GPU or CPU). Once the model was trained, it was loaded into the Test.py file for testing and use.
